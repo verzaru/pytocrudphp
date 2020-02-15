@@ -61,7 +61,7 @@ class TbGenerateUpdate():
 		resultInput = ''
 		if type == "textarea" :
 			resultInput = '<textarea name="'+names[i]+'" id="'+names[i]+'" class="form-control"><?php echo $row['+str(i)+']; ?></textarea>'
-		if type == "editor" :
+		elif type == "editor" :
 			resultInput = '<textarea name="'+names[i]+'" id="'+names[i]+'" class="summernote"><?php echo $row['+str(i)+']; ?></textarea>'
 		elif type == "selectTb" :	
                     if len(selInputByTbUpdate) != 0 :

@@ -18,7 +18,7 @@
 	<script type="text/javascript" charset="utf8" src="lib/DataTables-1.10.20/plugins/Buttons-1.6.1/js/buttons.html5.min.js"></script>
 	<script type="text/javascript" charset="utf8" src="lib/DataTables-1.10.20/plugins/Buttons-1.6.1/js/buttons.print.min.js"></script>
 	<script type="text/javascript" charset="utf8" src="lib/bootbox-5.4.0/bootbox.min.js"></script>
-	<script type="text/javascript" charset="utf8" src="lib/summernote-0.8.15/summernote-lite.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="lib/summernote-0.8.15/dist/summernote-lite.min.js"></script>
 	<style>
 	body { padding-top: 2rem;
 	}

@@ -51,7 +51,7 @@ class TbGenerateInsert():
 		resultInput = ''
 		if type == "textarea" :
 			resultInput = '<textarea name="'+names[i]+'" id="'+names[i]+'" class="form-control"></textarea>'
-		if type == "editor" :
+		elif type == "editor" :
 			resultInput = '<textarea name="'+names[i]+'" id="'+names[i]+'" class="summernote"></textarea>'
 		elif type == "selectTb" :	
                     if len(selInputByTbInsert) != 0 :
