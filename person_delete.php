@@ -2,7 +2,7 @@
 <?php include_once("config.php");?>
 <?php if($_REQUEST["id"]) {
 $id = $_POST["id"];
-$sqlDelete = "DELETE FROM person WHERE pid=$pid";
+$sqlDelete = "DELETE FROM person WHERE pid=$id";
 $resultDelete = $conn->query($sqlDelete);
 if ($resultDelete === TRUE) {
  echo "Deleted the record successfully.";

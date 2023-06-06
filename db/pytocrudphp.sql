@@ -34,7 +34,9 @@ CREATE TABLE subject (
 
 INSERT INTO person (pid, name, description, mjid, mnid, sjid, sex, blood, color, biography) VALUES
 (1, 'John', 'A ME student.', 2, 4, '1,2,5', '1', 'o', 'green,blue', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
-(2, 'Jane', 'An ART student.', 3, 5, '3,4', '2', 'ab', 'red,green', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
+(2, 'Jane', 'An ART student.', 3, 5, '3,4', '2', 'ab', 'red,green', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+(3, 'John', 'A ME student.', 2, 4, '1,2,5', '1', 'o', 'green,blue', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+(4, 'John', 'A ME student.', 2, 4, '1,2,5', '1', 'o', 'green,blue', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.');
 
 INSERT INTO major (mjname) VALUES
 ('Science and Technology'),

@@ -31,7 +31,7 @@ while ($row = $resultSelect -> fetch_row()) { ?>
 <table class="table table-bordered">
 <tr><td style="width: 1%">1</td><td style="width: 1%"><label for="pid">Pid</label></td><td><?php echo $row[0]; ?><input type="hidden" name="pid" id="pid" value="<?php echo $row[0]; ?>"></td></tr>
 <tr><td style="width: 1%">2</td><td style="width: 1%"><label for="name">Name</label></td><td><input type="text" name="name" id="name" value="<?php echo $row[1]; ?>" class="form-control"></td></tr>
-<tr><td style="width: 1%">3</td><td style="width: 1%"><label for="description">Description</label></td><td><input type="text" name="description" id="description" value="<?php echo $row[2]; ?>" class="form-control"></td></tr>
+<tr><td style="width: 1%">3</td><td style="width: 1%"><label for="description">Description</label></td><td><textarea name="description" id="description" class="form-control"><?php echo $row[2]; ?></textarea></td></tr>
 <tr><td style="width: 1%">4</td><td style="width: 1%"><label for="mjid">Mjid</label></td><td><select name="mjid" id="mjid" class="form-control">
 <?php $sqlSelect2 = "SELECT mjid,mjname FROM major";
  $resultSelect2 = $conn->query($sqlSelect2);

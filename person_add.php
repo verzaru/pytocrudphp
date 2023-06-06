@@ -23,7 +23,7 @@
 <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
 <table class="table table-bordered">
 <tr><td style="width: 1%">1</td><td style="width: 1%"><label for="name">Name</label></td><td><input type="text" name="name" id="name" class="form-control"></td></tr>
-<tr><td style="width: 1%">2</td><td style="width: 1%"><label for="description">Description</label></td><td><input type="text" name="description" id="description" class="form-control"></td></tr>
+<tr><td style="width: 1%">2</td><td style="width: 1%"><label for="description">Description</label></td><td><textarea name="description" id="description" class="form-control"></textarea></td></tr>
 <tr><td style="width: 1%">3</td><td style="width: 1%"><label for="mjid">Mjid</label></td><td><select name="mjid" id="mjid" class="form-control">
  <?php $sqlSelect = "SELECT mjid,mjname FROM major";
  $resultSelect = $conn->query($sqlSelect);

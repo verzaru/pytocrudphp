@@ -9,7 +9,7 @@ class TbGenerateDelete():
 		fileObj.write('\n<?php include_once("config.php");?>')
 		fileObj.write('\n<?php if($_REQUEST["id"]) {')
 		fileObj.write('\n$id = $_POST["id"];')
-		sqlDelete = "$sqlDelete = \"DELETE FROM "+tbName+" WHERE "+names[0]+"=$"+names[0]+"\";"
+		sqlDelete = "$sqlDelete = \"DELETE FROM "+tbName+" WHERE "+names[0]+"=$id\";"
 		fileObj.write('\n'+sqlDelete)
 		fileObj.write('\n$resultDelete = $conn->query($sqlDelete);')
 		fileObj.write('\nif ($resultDelete === TRUE) {')
